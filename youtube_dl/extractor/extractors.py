@@ -472,6 +472,10 @@ from .macgamestore import MacGameStoreIE
 from .mailru import MailRuIE
 from .makerschannel import MakersChannelIE
 from .makertv import MakerTVIE
+from .mangomolo import (
+    MangomoloVideoIE,
+    MangomoloLiveIE,
+)
 from .matchtv import MatchTVIE
 from .mdr import MDRIE
 from .meta import METAIE
@@ -1065,6 +1069,7 @@ from .vporn import VpornIE
 from .vrt import VRTIE
 from .vube import VubeIE
 from .vuclip import VuClipIE
+from .vyborymos import VyboryMosIE
 from .walla import WallaIE
 from .washingtonpost import (
     WashingtonPostIE,
